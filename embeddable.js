@@ -362,8 +362,7 @@ var dataminer = (function() {
   };
 
   m.getSentence = async function() {
-    const { globaldictionary } = await browser.storage.local.get('globaldictionary');
-    const dict = globaldictionary || { meta: [], content: [] };
+    var dict = JSON.parse(localStorage.getItem("globaldictionary") || '{"meta":[],"content":[]}');
 
     if (!dict.meta.length && !dict.content.length) {
       return "wow nothing to see here lol";
