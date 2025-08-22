@@ -44,7 +44,7 @@ class DogeExtension {
     this._loading = true;
 
     const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/gh/dogeeeeeeeeeeeee/BetterLibdoge/embeddable.js'; // We rely on JSDelivr: reasons
+    script.src = 'https://dogeeeeeeeeeeeee.github.io/BetterLibdoge/embeddable.js'; // we rely on Pages. reasons
     script.onload = () => {
       this._loaded = true;
       this._loading = false;
