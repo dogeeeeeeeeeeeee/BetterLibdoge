@@ -1,2 +1,2 @@
 # BetterLibdoge
-(v2)
+A better Libdoge for Firefox and Chrome (MV3)
